@@ -32,11 +32,11 @@ h5 {
   padding: 70px 0;
 }
 
-.testimonial__title-wrapper {
+.testimonials__title-wrapper {
   position: relative;
 }
 
-.testimonial__card {
+.testimonials__card {
   width: 330px;
   padding: 30px;
   margin: 10px auto;
@@ -69,13 +69,13 @@ h5 {
   color: hsl(0, 0%, 100%);
 }
 
-.testimonial__header {
+.testimonials__header {
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.testimonial__header-image {
+.testimonials__header-image {
   height: 35px;
   width: 35px;
   border: solid 2px hsl(0, 0%, 100%);
@@ -90,22 +90,22 @@ h5 {
   border: solid 2px rgba(157, 124, 203);
 }
 
-.testimonial__title {
+.testimonials__title {
   font-size: 18px;
   letter-spacing: 1px;
   z-index: 1;
   position: relative;
 }
-.testimonial__header-name {
+.testimonials__header-name {
   font-size: 14px;
 }
 
-.testimonial__header-status {
+.testimonials__header-status {
   opacity: 0.5;
   font-size: 12px;
 }
 
-.testimonial__content {
+.testimonials__content {
   opacity: 0.7;
   letter-spacing: 0.5px;
 }
@@ -132,12 +132,12 @@ h5 {
     max-height: 720px;
   }
 
-  .testimonial__title {
+  .testimonials__title {
     font-size: 17px;
     letter-spacing: 1.3px;
   }
 
-  .testimonial__card {
+  .testimonials__card {
     width: 100%;
     margin: 0;
   }
@@ -163,6 +163,6 @@ h5 {
   }
 
   .--quotation::after {
-    right: 65px;
+    right: 50px;
   }
 }
